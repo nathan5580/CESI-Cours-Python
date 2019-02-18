@@ -52,7 +52,6 @@ print(math.cos(math.pi))
 print(math.sqrt(25))
 
 #lire un fichier
-
 contenu = open("demofile.txt")
 for line in contenu:
     print(line)
@@ -68,7 +67,7 @@ if(maVar == 100): print ("test variable")
 for letter in 'Python':
     print(letter)
 
-# fonction
+# Definition d'une fonction
 def PrintTest(strToPrint):
    print(strToPrint)
 
@@ -90,10 +89,3 @@ locals()
 #help('modules') # trop lonnnnng
 
 # Exceptions
-def KelvinToFahrenheit(Temperature):
-   assert (Temperature >= 0),"Colder than absolute zero!"
-   return ((Temperature-273)*1.8)+32
-
-print (KelvinToFahrenheit(273))
-print (int(KelvinToFahrenheit(505.78)))
-print (KelvinToFahrenheit(-5))
