@@ -87,3 +87,6 @@ for mod in dir(math):
 
 # tous les modules existants
 #help('modules') # trop lonnnnng
+
+# import de modules
+import Armors
