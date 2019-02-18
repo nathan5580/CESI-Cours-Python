@@ -44,8 +44,8 @@ Unichr(),ord(),hex(),oct()
 
 #dictionry
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
-print ("dict['Name']: ", dict['Name'])
-print ("dict['Age']: ", dict['Age'])
+print("dict['Name']: ", dict['Name'])
+print("dict['Age']: ", dict['Age'])
 
 import math # importation du module
 print(math.cos(math.pi))
@@ -91,3 +91,5 @@ for mod in dir(math):
 # import de modules
 import Armors
 Armors.mark_I()
+
+import pygame
