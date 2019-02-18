@@ -82,10 +82,8 @@ for mod in dir(math):
     print(mod)
 
 # yakoi
-globals()
-locals()
+#globals()
+#locals()
 
 # tous les modules existants
 #help('modules') # trop lonnnnng
-
-# Exceptions
