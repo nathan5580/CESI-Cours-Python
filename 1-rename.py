@@ -47,9 +47,9 @@ dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 print ("dict['Name']: ", dict['Name'])
 print ("dict['Age']: ", dict['Age'])
 
-from math import *  # importation du module
-print(cos(pi))
-print(sqrt(25))
+import math # importation du module
+print(math.cos(math.pi))
+print(math.sqrt(25))
 
 #lire un fichier
 
@@ -68,7 +68,12 @@ if(maVar == 100): print ("test variable")
 for letter in 'Python':
     print(letter)
 
-#Iteration de 1 à 5
-numList = [1,2,3,4,5,6]
-for  itemList in numList(range(5)):
-    print(itemList)
+# fonction
+def PrintTest(strToPrint):
+   print(strToPrint)
+
+PrintTest("je suis un texte")
+
+#module
+import moduleCesi
+moduleCesi.PrintFromModule("je suis dans le module")
