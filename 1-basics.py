@@ -60,7 +60,7 @@ for line in contenu:
         print("j'ai trouvé l'erreur !")
 print("End of file")
 
-# condition
+# condition façon ternaire
 maVar = 100
 if(maVar == 100): print ("test variable")
 
