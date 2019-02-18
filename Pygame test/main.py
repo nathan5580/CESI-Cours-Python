@@ -5,7 +5,7 @@ from pygame.locals import *
 pygame.init()
 
 #Ouverture de la fenêtre Pygame
-fenetre = pygame.display.set_mode((640, 480))
+fenetre = pygame.display.set_mode((640, 480),RESIZABLE)
 
 #Chargement et collage du fond
 fond = pygame.image.load("C:\\Users\\natha\\OneDrive\\Documents\\GitHub\\Python-CESI\\Pygame test\\hexa.png").convert()
