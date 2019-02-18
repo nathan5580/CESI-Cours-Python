@@ -17,7 +17,7 @@ class ClientThread(threading.Thread):
 
         r = self.clientsocket.recv(2048)
         print("User input: ", r)
-        message = "J'ai lu"
+        message = "Lu par le serveur"
         self.clientsocket.send(message.encode())
 
         print("Client déconnecté...")
