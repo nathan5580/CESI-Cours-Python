@@ -90,4 +90,4 @@ for mod in dir(math):
 
 # import de modules
 import Armors
-Armors.mark_I
+Armors.mark_I()
