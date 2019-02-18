@@ -50,3 +50,10 @@ print ("dict['Age']: ", dict['Age'])
 from math import *  # importation du module
 print(cos(pi))
 print(sqrt(25))
+
+#lire un fichier
+
+contenu = open("demofile.txt")
+for line in contenu:
+    print(line)
+print("End of file")
