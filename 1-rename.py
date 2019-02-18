@@ -56,4 +56,19 @@ print(sqrt(25))
 contenu = open("demofile.txt")
 for line in contenu:
     print(line)
+    if line.startswith('error'):
+        print("j'ai trouvé l'erreur !")
 print("End of file")
+
+# condition
+maVar = 100
+if(maVar == 100): print ("test variable")
+
+#Iteration sur des lettres
+for letter in 'Python':
+    print(letter)
+
+#Iteration de 1 à 5
+numList = [1,2,3,4,5,6]
+for  itemList in numList(range(5)):
+    print(itemList)
