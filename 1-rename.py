@@ -77,3 +77,14 @@ PrintTest("je suis un texte")
 #module
 import moduleCesi
 moduleCesi.PrintFromModule("je suis dans le module")
+
+# yakoi dans mon module
+for mod in dir(math):
+    print(mod)
+
+# yakoi
+globals()
+locals()
+
+# tous les modules existants
+#help('modules') # trop lonnnnng
